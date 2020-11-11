@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "yICaHZOgUCj3x8wOlPrz/tM3m54wgNLL0VUl/GFwfJlW9FwLh/Ifh/6TdX8KbN/d77MkIWnGG0dKmBtgn/4EeA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Tomi\\OneDrive\\Savonia\\Vuosi-4\\Mobiiliohjelmoinnin_jatkokurssi\\Harjoitustyö\\Koodi\\Xamarin Forms Project\\Xamarin Forms Project.iOS\\Xamarin Forms Project.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
+  ],
+  "logs": []
+}
