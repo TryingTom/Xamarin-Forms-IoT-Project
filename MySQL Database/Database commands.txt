@@ -1,1 +1,65 @@
 // here goes the database commands, such as how to log into the database etc.
+
+// create user for database, use * to add all databases or all tables from the database
+GRANT ALL PRIVILEGES ON [DatabaseName].[TableNames] TO '[NewUserName]'@'localhost' IDENTIFIED BY '[TheirPassword]';
+
+// log in the user
+sudo mysql -u [Your username] -p
+
+// use the database
+Use [DatabaseName];
+
+// show info
+Show Databases;
+Show Tables;
+Describe [TableName];
+
+// ----------TABLE---------- //
+// create database
+CREATE DATABASE UserDatabase;
+
+// create tables
+CREATE TABLE User(
+ID int PRIMARY KEY AUTO_INCREMENT,
+Password VARCHAR(30) NOT NULL,
+Email VARCHAR(30),
+UserName VARCHAR(30) NOT NULL,
+DateOfBirth datetime,
+HeightCM float,
+WeightKG float
+);
+
+CREATE TABLE Logs(
+UserID int REFERENCES User(ID),
+Measurement float NOT NULL,
+MeasurementType VARCHAR(10),
+LogDate datetime default now(),
+DeviceName VARCHAR(50)
+);
+
+// drop the table
+DROP TABLE [TableName];
+
+// check data
+SELECT * FROM User;
+
+SELECT Logs.LogDate AS Date, User.UserName AS User, Logs.Measurement, Logs.MeasurementType
+FROM Logs
+INNER JOIN
+User ON Logs.UserID = User.ID;
+
+// insert data
+INSERT INTO User (Password, Email, UserName, HeightCM, WeightKG)
+VALUES ("Password1", "Email1", "UserName1", 175.0, 82.5);
+
+INSERT INTO Logs (UserID, Measurement, MeasurementType, DeviceName)
+VALUES (1, 37.2, "Celcius", "ESP32-Temperature");
+
+// update data
+UPDATE User
+SET UserName="UpdatedName1", Email="UpdatedEmail1"
+WHERE ID=1;
+
+// delete data
+DELETE FROM User WHERE UserName='UpdatedName1';
+// ----------TABLE END------ //
