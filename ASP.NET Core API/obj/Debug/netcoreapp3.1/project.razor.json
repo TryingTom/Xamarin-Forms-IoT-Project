@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Tomi\\OneDrive\\Savonia\\Vuosi-4\\Mobiiliohjelmoinnin_jatkokurssi\\Harjoitustyö\\Koodi\\ASP.NET Core API\\ASP.NET Core API.csproj",
+  "FilePath": "c:\\Users\\Tomi\\OneDrive\\Savonia\\Vuosi-4\\Mobiiliohjelmoinnin_jatkokurssi\\Final Assignment\\Koodi\\ASP.NET Core Api\\ASP.NET Core Api.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14389,7 +14389,7 @@
     ],
     "CSharpLanguageVersion": 800
   },
-  "RootNamespace": "ASP.NET_Core_API",
+  "RootNamespace": "ASP.NET_Core_Api",
   "Documents": [],
   "SerializationFormat": "0.2"
 }

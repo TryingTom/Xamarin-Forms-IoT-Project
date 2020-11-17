@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tomi\\OneDrive\\Savonia\\Vuosi-4\\Mobiiliohjelmoinnin_jatkokurssi\\Harjoitustyö\\Koodi\\ASP.NET Core API\\ASP.NET Core API.csproj",
-      "projectName": "ASP.NET Core API",
-      "projectPath": "C:\\Users\\Tomi\\OneDrive\\Savonia\\Vuosi-4\\Mobiiliohjelmoinnin_jatkokurssi\\Harjoitustyö\\Koodi\\ASP.NET Core API\\ASP.NET Core API.csproj",
+      "projectUniqueName": "C:\\Users\\Tomi\\OneDrive\\Savonia\\Vuosi-4\\Mobiiliohjelmoinnin_jatkokurssi\\Final Assignment\\Koodi\\ASP.NET Core Api\\ASP.NET Core Api.csproj",
+      "projectName": "ASP.NET Core Api",
+      "projectPath": "C:\\Users\\Tomi\\OneDrive\\Savonia\\Vuosi-4\\Mobiiliohjelmoinnin_jatkokurssi\\Final Assignment\\Koodi\\ASP.NET Core Api\\ASP.NET Core Api.csproj",
       "packagesPath": "C:\\Users\\Tomi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tomi\\OneDrive\\Savonia\\Vuosi-4\\Mobiiliohjelmoinnin_jatkokurssi\\Harjoitustyö\\Koodi\\ASP.NET Core API\\obj\\",
+      "outputPath": "C:\\Users\\Tomi\\OneDrive\\Savonia\\Vuosi-4\\Mobiiliohjelmoinnin_jatkokurssi\\Final Assignment\\Koodi\\ASP.NET Core Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

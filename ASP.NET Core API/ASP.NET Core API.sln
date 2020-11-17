@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET Core API", "ASP.NET Core API.csproj", "{C56F39E8-6982-4614-8104-BB5B9257E506}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET Core Api", "ASP.NET Core Api.csproj", "{602879E4-36D4-421D-A91B-95E0B66903FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C56F39E8-6982-4614-8104-BB5B9257E506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C56F39E8-6982-4614-8104-BB5B9257E506}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C56F39E8-6982-4614-8104-BB5B9257E506}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C56F39E8-6982-4614-8104-BB5B9257E506}.Release|Any CPU.Build.0 = Release|Any CPU
+		{602879E4-36D4-421D-A91B-95E0B66903FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{602879E4-36D4-421D-A91B-95E0B66903FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{602879E4-36D4-421D-A91B-95E0B66903FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{602879E4-36D4-421D-A91B-95E0B66903FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {148F56CE-E1C3-41A3-8903-DDD7C65D34A4}
+		SolutionGuid = {3ACBF308-9142-43DD-829F-60B33CEE3F74}
 	EndGlobalSection
 EndGlobal

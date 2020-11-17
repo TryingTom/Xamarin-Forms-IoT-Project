@@ -1936,11 +1936,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tomi\\OneDrive\\Savonia\\Vuosi-4\\Mobiiliohjelmoinnin_jatkokurssi\\Harjoitustyö\\Koodi\\Xamarin Forms Project\\Xamarin Forms Project.Android\\Xamarin Forms Project.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Tomi\\OneDrive\\Savonia\\Vuosi-4\\Mobiiliohjelmoinnin_jatkokurssi\\Final Assignment\\Koodi\\Xamarin Forms Project\\Xamarin Forms Project.Android\\Xamarin Forms Project.Android.csproj",
       "projectName": "Xamarin Forms Project.Android",
-      "projectPath": "C:\\Users\\Tomi\\OneDrive\\Savonia\\Vuosi-4\\Mobiiliohjelmoinnin_jatkokurssi\\Harjoitustyö\\Koodi\\Xamarin Forms Project\\Xamarin Forms Project.Android\\Xamarin Forms Project.Android.csproj",
+      "projectPath": "C:\\Users\\Tomi\\OneDrive\\Savonia\\Vuosi-4\\Mobiiliohjelmoinnin_jatkokurssi\\Final Assignment\\Koodi\\Xamarin Forms Project\\Xamarin Forms Project.Android\\Xamarin Forms Project.Android.csproj",
       "packagesPath": "C:\\Users\\Tomi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tomi\\OneDrive\\Savonia\\Vuosi-4\\Mobiiliohjelmoinnin_jatkokurssi\\Harjoitustyö\\Koodi\\Xamarin Forms Project\\Xamarin Forms Project.Android\\obj\\",
+      "outputPath": "C:\\Users\\Tomi\\OneDrive\\Savonia\\Vuosi-4\\Mobiiliohjelmoinnin_jatkokurssi\\Final Assignment\\Koodi\\Xamarin Forms Project\\Xamarin Forms Project.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1961,8 +1961,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\Tomi\\OneDrive\\Savonia\\Vuosi-4\\Mobiiliohjelmoinnin_jatkokurssi\\Harjoitustyö\\Koodi\\Xamarin Forms Project\\Xamarin Forms Project\\Xamarin Forms Project.csproj": {
-              "projectPath": "C:\\Users\\Tomi\\OneDrive\\Savonia\\Vuosi-4\\Mobiiliohjelmoinnin_jatkokurssi\\Harjoitustyö\\Koodi\\Xamarin Forms Project\\Xamarin Forms Project\\Xamarin Forms Project.csproj"
+            "C:\\Users\\Tomi\\OneDrive\\Savonia\\Vuosi-4\\Mobiiliohjelmoinnin_jatkokurssi\\Final Assignment\\Koodi\\Xamarin Forms Project\\Xamarin Forms Project\\Xamarin Forms Project.csproj": {
+              "projectPath": "C:\\Users\\Tomi\\OneDrive\\Savonia\\Vuosi-4\\Mobiiliohjelmoinnin_jatkokurssi\\Final Assignment\\Koodi\\Xamarin Forms Project\\Xamarin Forms Project\\Xamarin Forms Project.csproj"
             }
           }
         }

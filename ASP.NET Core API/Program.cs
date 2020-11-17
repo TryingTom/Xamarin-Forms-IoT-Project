@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace ASP.NET_Core_API
+namespace ASP.NET_Core_Api
 {
     public class Program
     {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t76TKqBcK7E1mgjpXsZgeLibznlEImJ9Mu9UHLphbp8o4wwV/5TZLbO8e65HOdiuESJCHANMBkWRnsyPYz5xzw==",
+  "dgSpecHash": "whnYOtAkUq0zJ+5OGpOQNnZe7i7/DHLiMetHBPwo6qSmVpa2iRGgqGlMytgfphtzZcsIKZTYyS/kYKw25ov7mw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tomi\\OneDrive\\Savonia\\Vuosi-4\\Mobiiliohjelmoinnin_jatkokurssi\\Harjoitustyö\\Koodi\\Xamarin Forms Project\\Xamarin Forms Project.Android\\Xamarin Forms Project.Android.csproj",
+  "projectFilePath": "C:\\Users\\Tomi\\OneDrive\\Savonia\\Vuosi-4\\Mobiiliohjelmoinnin_jatkokurssi\\Final Assignment\\Koodi\\Xamarin Forms Project\\Xamarin Forms Project.Android\\Xamarin Forms Project.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.runtime\\1.1.1.3\\xamarin.android.arch.core.runtime.1.1.1.3.nupkg.sha512",

@@ -2,7 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>ASP.NET_Core_API</RootNamespace>
+    <RootNamespace>ASP.NET_Core_Api</RootNamespace>
   </PropertyGroup>
+
 
 </Project>
