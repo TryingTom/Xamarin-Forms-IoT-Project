@@ -27,8 +27,10 @@ namespace ASP.NET_Core_Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<UserDatabaseContext>(options =>
-                options.UseMySQL(Configuration.GetConnectionString("UserDatabase")));
+            services.AddDbContext<UserContext>(options =>
+                // ConnectionString stored in dotnet user-sercets for best practice - not necessary since it's just a local db, but still good practice :)
+                options.UseSqlite(Configuration.GetConnectionString("default")));    
+
             services.AddControllers();
         }
 

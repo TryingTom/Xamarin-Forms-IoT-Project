@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace ASP.NET_Core_Api.Models
 {
-    public partial class User
+    public class User
     {
         public int Id { get; set; }
         public string Password { get; set; }
@@ -12,5 +12,7 @@ namespace ASP.NET_Core_Api.Models
         public float? HeightCm { get; set; }
         public float? WeightKg { get; set; }
         public DateTime? DateOfBirth { get; set; }
+
+        public ICollection<Log> Logs { get; set; }
     }
 }
