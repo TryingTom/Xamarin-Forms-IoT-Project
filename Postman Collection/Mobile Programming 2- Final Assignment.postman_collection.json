@@ -1,0 +1,121 @@
+{
+	"info": {
+		"_postman_id": "0d75a87e-3671-4dc0-b935-af22cad91ea0",
+		"name": "Mobile Programming 2: Final Assignment",
+		"description": "Contains all the API calls for the project posted here: https://github.com/TryingTom/Xamarin-Forms-IoT-Project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "https://localhost:44358/api/users",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}",
+							"host": [
+								"{{url}}"
+							]
+						},
+						"description": "GET "
+					},
+					"response": []
+				},
+				{
+					"name": "https://localhost:44358/api/users/1",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "c53ff2d8-d08d-4df4-affc-f2dd3a9b1fe5",
+								"exec": [
+									"const dateNow= new Date();\r",
+									"pm.environment.set('currentDate', dateNow.toISOString());"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"password\": \"TestPasswordPost\",\r\n    \"email\": \"TestEmailPost\",\r\n    \"userName\": \"TestUserPost\",\r\n    \"heightCm\": 420,\r\n    \"weightKg\": 69,\r\n    \"dateOfBirth\": \"{{currentDate}}\",\r\n    \"logs\": null\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}",
+							"host": [
+								"{{url}}"
+							]
+						},
+						"description": "POST"
+					},
+					"response": []
+				},
+				{
+					"name": "https://localhost:44358/api/users/1",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "5f391275-cdbe-423c-9af0-ed10fe370d3e",
+								"exec": [
+									"const dateNow= new Date();\r",
+									"pm.environment.set('currentDate', dateNow.toISOString());"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"password\": \"TestPasswordPut\",\r\n    \"email\": \"TestEmailPut\",\r\n    \"userName\": \"TestUserPut\",\r\n    \"heightCm\": 420,\r\n    \"weightKg\": 69,\r\n    \"dateOfBirth\": \"{{currentDate}}\",\r\n    \"logs\": null\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}{{number}}",
+							"host": [
+								"{{url}}{{number}}"
+							]
+						},
+						"description": "PUT"
+					},
+					"response": []
+				},
+				{
+					"name": "https://localhost:44358/api/users",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{url}}{{number}}",
+							"host": [
+								"{{url}}{{number}}"
+							]
+						},
+						"description": "DELETE"
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

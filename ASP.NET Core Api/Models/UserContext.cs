@@ -19,6 +19,33 @@ namespace ASP.NET_Core_Api.Models
         protected override void OnModelCreating(ModelBuilder builder)
         {
             //  ---- setup fluent API ---- //
+            // set properties
+            builder
+                .HasAnnotation("ProductVersion", "5.0.0");
+
+            builder.Entity("ASP.NET_Core_Api.Models.Log", b =>
+            {
+                b.Property<int>("Id")
+                    .ValueGeneratedOnAdd()
+                    .HasColumnType("INTEGER");
+
+                b.Property<string>("DeviceName")
+                    .HasColumnType("TEXT");
+
+                b.Property<DateTime?>("LogDate")
+                    .HasColumnType("TEXT");
+            });
+
+            builder.Entity("ASP.NET_Core_Api.Models.User", b =>
+            {
+                b.Property<int>("Id")
+                    .ValueGeneratedOnAdd()
+                    .HasColumnType("INTEGER");
+
+                b.Property<DateTime?>("DateOfBirth")
+                    .HasColumnType("TEXT");
+            });
+
             // set keys
             builder.Entity<User>()
                 .HasKey(k => k.Id);

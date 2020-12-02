@@ -11,49 +11,49 @@ namespace ASP.NET_Core_Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UsersController : ControllerBase
+    public class LogsController : ControllerBase
     {
         private readonly UserContext _context;
 
-        public UsersController(UserContext context)
+        public LogsController(UserContext context)
         {
             _context = context;
         }
 
-        // GET: api/Users
+        // GET: api/Logs
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<User>>> GetUser()
+        public async Task<ActionResult<IEnumerable<Log>>> GetLogs()
         {
-            return await _context.User.ToListAsync();
+            return await _context.Logs.ToListAsync();
         }
 
-        // GET: api/Users/5
+        // GET: api/Logs/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<User>> GetUser(int id)
+        public async Task<ActionResult<Log>> GetLog(int id)
         {
-            var user = await _context.User.FindAsync(id);
+            var log = await _context.Logs.FindAsync(id);
 
-            if (user == null)
+            if (log == null)
             {
                 return NotFound();
             }
 
-            return user;
+            return log;
         }
 
-        // PUT: api/Users/5
+        // PUT: api/Logs/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutUser(int id)
+        public async Task<IActionResult> PutLog(int id)
         {
-            var user = await _context.User.FindAsync(id);
-            if (id != user.Id)
+            var log = await _context.Logs.FindAsync(id);
+            if (id != log.Id)
             {
                 return BadRequest();
             }
 
-            _context.Entry(user).State = EntityState.Modified;
+            _context.Entry(log).State = EntityState.Modified;
 
             try
             {
@@ -61,7 +61,7 @@ namespace ASP.NET_Core_Api.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!UserExists(id))
+                if (!LogExists(id))
                 {
                     return NotFound();
                 }
@@ -74,37 +74,37 @@ namespace ASP.NET_Core_Api.Controllers
             return NoContent();
         }
 
-        // POST: api/Users
+        // POST: api/Logs
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPost]
-        public async Task<ActionResult<User>> PostUser(User user)
+        public async Task<ActionResult<Log>> PostLog(Log log)
         {
-            _context.User.Add(user);
+            _context.Logs.Add(log);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetUser", new { id = user.Id }, user);
+            return CreatedAtAction("GetLog", new { id = log.Id }, log);
         }
 
-        // DELETE: api/Users/5
+        // DELETE: api/Logs/5
         [HttpDelete("{id}")]
-        public async Task<ActionResult<User>> DeleteUser(int id)
+        public async Task<ActionResult<Log>> DeleteLog(int id)
         {
-            var user = await _context.User.FindAsync(id);
-            if (user == null)
+            var log = await _context.Logs.FindAsync(id);
+            if (log == null)
             {
                 return NotFound();
             }
 
-            _context.User.Remove(user);
+            _context.Logs.Remove(log);
             await _context.SaveChangesAsync();
 
-            return user;
+            return log;
         }
 
-        private bool UserExists(int id)
+        private bool LogExists(int id)
         {
-            return _context.User.Any(e => e.Id == id);
+            return _context.Logs.Any(e => e.Id == id);
         }
     }
 }

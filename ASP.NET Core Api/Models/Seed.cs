@@ -37,8 +37,8 @@ namespace ASP.NET_Core_Api.Models
                     new User { Id = 3, Email = "TestEmail3", Password = "TestPassword3", UserName = "TestUser3", HeightCm = 165, WeightKg = 50, DateOfBirth = new DateTime(2003, 2, 4), Logs = LogsForUser3 }
                 };
 
-                context.AddRange(Users);
                 context.AddRange(Logs);
+                context.AddRange(Users);
 
                 context.SaveChanges();
             }
